@@ -14,43 +14,62 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        // let stringValue = "12345"
-        // let stringValue1 = "1234"
         
-        // let age = 26
-        
-        // if age < 10 {
-           // print("ребонок")
-        // } else if age >= 10 && age < 18 {
-          //  print("подросток")
-        // } else if age >= 18 && age < 30 {
-           // print("молодой человек")
-        // } else if age >= 30 && age < 60 {
-           // print("мужчина")
-        // } else if age >= 60 {
-           // print("пожилой")
-        // }
+            /* задача 2
+         let a = 10
         
         
-        let age = 26
+         if a % 2 == 0{
+            print("четное")
+         } else  {
+            print("не четное")
+         } */
         
-        switch age {
-        case 0...10:
-            print("ребенок")
-        case 10...18:
-            print("подросток")
-        case 18...30:
+        /* задача 1
+        let a = 9.2
+        let b = 1.5
+
+
+        let x = Int(a) + Int(b)
+        let y = Int(round(1000*(a).truncatingRemainder(dividingBy: 1))/1000*10 +
+            round(1000*(b).truncatingRemainder(dividingBy: 1))/1000*10)
+         
+         print(x,y)
+         
+         */
+        
+        
+        
+        
+
+        
+        
+        
+       
+        
+        
+        
+        
+        
+    
+        
+        
+        /* else if age >= 18 && age < 30 {
             print("молодой человек")
-        case 30...60:
+         } else if age >= 30 && age < 60 {
             print("мужчина")
-        case 60...Int.max:
-            print("пожелой")
-        default:
-            print("no ")
-        }
+         } else if age >= 60 {
+            print("пожилой")
+         } */
         
-        
-        
+            /* let a = 9.2
+        _ = 1.5
+        let double = floor(a)
+        _ = Int(double)
+        _ = a.truncatingRemainder(dividingBy: 1)
+    
+        }*/
+                
         // Do any additional setup after loading the view.
     }
 
